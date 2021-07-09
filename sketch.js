@@ -39,7 +39,7 @@ function draw() {
   trash.display();
 
   if (keyCode === UP_ARROW){
-	Matter.Body.applyForce(trash.body,trash.body.position,{x:8,y:-8});
+	Matter.Body.applyForce(trash.body,trash.body.position,{x:0.7,y:-0.9});
 }
   drawSprites();
  
